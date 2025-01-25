@@ -1,5 +1,5 @@
-import work_list from "@constants/work.js";
-import CardWork from "@components/card-work";
+import work_list from "../../../constants/work.js";
+import CardWork from "../../../components/card-work";
 
 export default function Work() {
      return (
@@ -9,13 +9,13 @@ export default function Work() {
                </h2>
                <div className="max-w-6xl mx-auto">
                     <div className="grid lg:grid-cols-2 gap-12">
-                         {work_list.map(
-                              (item: { [key: string]: any }, key: number) => {
-                                   return (
-                                        <CardWork {...item}/>
-                                   );
-                              }
-                         )}
+                         {work_list.map((item: object) => {
+                              return (
+                                   <CardWork
+                                        {...item}
+                                   />
+                              );
+                         })}
                     </div>
                </div>
           </div>

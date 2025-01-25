@@ -1,5 +1,5 @@
-import roadmap_list from "@constants/roadmap.js";
-import CardRoadMap from "@components/card-road-map";
+import roadmap_list from "../../../constants/roadmap.js";
+import CardRoadMap from "../../../components/card-road-map";
 
 export default function RoadMap() {
      return (
@@ -9,7 +9,7 @@ export default function RoadMap() {
                </h2>
                <div className="grid md:grid-cols-3 gap-8 font-mono">
                     {roadmap_list.map(
-                         (item: { [key: string]: any }, key: number) => {
+                         (item: object) => {
                               return <CardRoadMap {...item} />;
                          }
                     )}

@@ -31,4 +31,4 @@ let roadmap_list = [
      },
 ]
 
-export default roadmap_list
+export default roadmap_list;

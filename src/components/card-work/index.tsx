@@ -1,4 +1,4 @@
-export default function CardWork(props:{ [key: string]: any }) {
+export default function CardWork(props:any) {
      return (
           <div
                key={props.id}
@@ -33,12 +33,12 @@ export default function CardWork(props:{ [key: string]: any }) {
                          target={
                               props.button.attr != null
                                    ? props.button.attr.target
-                                   : null
+                                   : ''
                          }
                          rel={
                               props.button.attr != null
                                    ? props.button.attr.rel
-                                   : null
+                                   : ''
                          }
                          className="inline-block px-6 py-3 bg-black border-4 border-white font-mono uppercase text-sm hover:bg-white hover:text-black transition-colors"
                     >

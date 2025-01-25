@@ -14,10 +14,10 @@ export default defineConfig({
   plugins: [react(), tailwindcss(),],
   resolve: {
     alias: {
-        '@pages': join(__dirname, "./src/pages"),
-        '@assets': join(__dirname, "./src/assets"),
-        '@constants': join(__dirname, "./src/constants"),
-        '@components': join(__dirname, "./src/components"),
+        'pages': join(__dirname, "./src/pages"),
+        'assets': join(__dirname, "./src/assets"),
+        'constants': join(__dirname, "./src/constants"),
+        'components': join(__dirname, "./src/components"),
     },
   },
 })
