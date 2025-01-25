@@ -2,10 +2,10 @@ export default function Header() {
      return (
           <div className="border-8 border-black p-12 bg-white relative overflow-hidden">
                <div className="relative z-10">
-                    <h1 className="text-7xl font-bold uppercase font-mono mb-6">
+                    <h1 className="text-7xl font-bold uppercase font-mono mb-6 text-black">
                          Welcome to NazareAI
                     </h1>
-                    <div className="font-mono space-y-4 mb-8 max-w-3xl">
+                    <div className="font-mono space-y-4 mb-8 max-w-3xl text-black">
                          <p className="text-3xl">
                               THE FUTURE OF AI AND BLOCKCHAIN TECHNOLOGY
                          </p>
